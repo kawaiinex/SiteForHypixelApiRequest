@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(34, 33, 40);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+}
+
+.container div:nth-child(1),
+.container div:nth-child(2),
+.container div:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+input:hover {
+    border-color: #999;
+}
+
+input[type="text"] {
+    background-color: #222;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    font-size: 18px;
+    padding: 12px;
+    width: 100%;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+.button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #ff00ff;
+    box-shadow: 0 6px 12px rgba(255, 0, 255, 0.5);
+}
+
